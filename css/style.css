@@ -1,0 +1,36 @@
+#movies img, #movie img {
+  width: 100%;
+}
+
+.movies .well {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.movies .well:hover {
+  background-color: #303030;
+}
+
+.plot {
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar-header img {
+  max-width: 100%;
+  height: 70px;
+}
+
+#searchTitle {
+  font-family: Josefin;
+  font-weight: bold;
+}
+
+#popularTitle {
+  font-family: Josefin;
+}
+
+.jumbotron {
+  padding: 20px;
+}
