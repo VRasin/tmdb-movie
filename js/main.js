@@ -83,16 +83,17 @@ function getMovie() {
 
 /* ------- genres loop  ------------ */
       let genres = movie.genres;
-      let genr = ' ';
+      let genr = [];
       $.each(genres, (index, genre) => {
-        genr += genre.name + " ";
+        genr.push(" " + genre.name);
+
  });
 
  /* ------- company loop  ------------ */
        let companies = movie.production_companies;
-       let comp = ' ';
+       let comp = [];
        $.each(companies, (index, company) => {
-         comp += company.name + " ";
+         comp.push(" " + company.name);
   });
 
       let output = `
